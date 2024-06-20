@@ -1,6 +1,7 @@
 // src/components/Navbar.tsx
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import { NavLink } from "react-router-dom"; // to interact with the navbars
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Navbar.css";
 
@@ -18,14 +19,30 @@ const CustomNavbar: React.FC = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="/projects">Projects</Nav.Link>
-          <Nav.Link href="#publications">Publications</Nav.Link>
-          <Nav.Link href="#datasets">Datasets</Nav.Link>
-          <Nav.Link href="#code">Code</Nav.Link>
-          <Nav.Link href="#videos">Videos</Nav.Link>
-          <Nav.Link href="#lectures">Lectures</Nav.Link>
-          <Nav.Link href="#aboutus">About us</Nav.Link>
+          <NavLink href="#home" className="nav-link">
+            Home
+          </NavLink>
+          <NavLink href="/projects" className="nav-link">
+            Projects
+          </NavLink>
+          <NavLink href="#publications" className="nav-link">
+            Publications
+          </NavLink>
+          <NavLink href="#datasets" className="nav-link">
+            Datasets
+          </NavLink>
+          <NavLink href="#code" className="nav-link">
+            Code
+          </NavLink>
+          <NavLink href="#videos" className="nav-link">
+            Videos
+          </NavLink>
+          <NavLink href="#lectures" className="nav-link">
+            Lectures
+          </NavLink>
+          <NavLink href="#aboutus" className="nav-link">
+            About us
+          </NavLink>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
