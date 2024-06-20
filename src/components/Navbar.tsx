@@ -19,7 +19,7 @@ const CustomNavbar: React.FC = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
           <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#projects">Projects</Nav.Link>
+          <Nav.Link href="/projects">Projects</Nav.Link>
           <Nav.Link href="#publications">Publications</Nav.Link>
           <Nav.Link href="#datasets">Datasets</Nav.Link>
           <Nav.Link href="#code">Code</Nav.Link>

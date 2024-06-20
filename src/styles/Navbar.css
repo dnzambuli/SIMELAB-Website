@@ -11,6 +11,10 @@
   .nav-link {
     color: #000;
   }
+
+  .nav-link.active {
+    border-bottom: 2px solid #007bff;
+  }
   
   .nav-link:hover {
     color: #007bff;
