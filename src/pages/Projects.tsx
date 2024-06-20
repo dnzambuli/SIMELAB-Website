@@ -2,7 +2,7 @@
 import React from "react";
 import { Card, Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Projects.css";
+import "../styles/Projects.css";
 
 const projectData = [
   { imgSrc: "path/to/image1.png", title: "Project 1" },
