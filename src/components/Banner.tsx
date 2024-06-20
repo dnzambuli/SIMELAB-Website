@@ -23,7 +23,7 @@ const Banner: React.FC = () => {
           <button>Learn more</button>
         </div>
         <div className="banner-image">
-          <img src="banner.png" alt="Sustainability" />
+          <img src="/banner.png" alt="Sustainability" />
         </div>
       </div>
     </div>
