@@ -19,28 +19,28 @@ const CustomNavbar: React.FC = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <NavLink href="#home" className="nav-link">
+          <NavLink to="#home" className="nav-link">
             Home
           </NavLink>
-          <NavLink href="/projects" className="nav-link">
+          <NavLink to="/projects" className="nav-link">
             Projects
           </NavLink>
-          <NavLink href="#publications" className="nav-link">
+          <NavLink to="#publications" className="nav-link">
             Publications
           </NavLink>
-          <NavLink href="#datasets" className="nav-link">
+          <NavLink to="#datasets" className="nav-link">
             Datasets
           </NavLink>
-          <NavLink href="#code" className="nav-link">
+          <NavLink to="#code" className="nav-link">
             Code
           </NavLink>
-          <NavLink href="#videos" className="nav-link">
+          <NavLink to="#videos" className="nav-link">
             Videos
           </NavLink>
-          <NavLink href="#lectures" className="nav-link">
+          <NavLink to="#lectures" className="nav-link">
             Lectures
           </NavLink>
-          <NavLink href="#aboutus" className="nav-link">
+          <NavLink to="#aboutus" className="nav-link">
             About us
           </NavLink>
         </Nav>
