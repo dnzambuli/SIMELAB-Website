@@ -1,0 +1,31 @@
+/* src/pages/Videos.css */
+.videos-container {
+    padding: 2rem 0;
+  }
+  
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+  }
+  
+  .card-title {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card img {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-body button {
+    margin-top: auto;
+  }
+  
