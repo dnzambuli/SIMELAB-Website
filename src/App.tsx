@@ -8,6 +8,7 @@ import Projects from "./pages/Projects";
 import Publications from "./pages/Publications";
 import Datasets from "./pages/Datasets";
 import Code from "./pages/Code";
+import Videos from "./pages/Videos";
 
 const App: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const App: React.FC = () => {
         <Route path="/publications" element={<Publications />} />
         <Route path="/datasets" element={<Datasets />} />
         <Route path="/code" element={<Code />} />
+        <Route path="/videos" element={<Videos />} />
       </Routes>
     </Router>
   );
