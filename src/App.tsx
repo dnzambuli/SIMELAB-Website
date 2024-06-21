@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import CustomNavbar from "./components/Navbar";
 import Projects from "./pages/Projects";
+import Publications from "./pages/Publications";
 
 const App: React.FC = () => {
   return (
@@ -13,7 +14,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Banner />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/publications" element={<Projects />} />
+        <Route path="/publications" element={<Publications />} />
       </Routes>
     </Router>
   );
